@@ -1,0 +1,54 @@
+html{
+    background-color: white;
+}
+
+:root{
+    --margin-top: 200px;
+    --wall-background : rgb(158, 164, 162);
+
+}
+
+
+.sasageho::before{
+    /*  */
+    /* URL TO SVG TODO!!!!! */
+    /*  */
+    content: url("dessinss.svg");
+    top: -404px;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(rgb(255, 255, 154) 0%, rgb(220, 110, 50) 80%, rgb(59, 39, 28) 90.6%, transparent 90.6%);
+}
+
+.sasageho{
+    animation: seisme .1s linear .5s 45, resize 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes resize {
+    0% {
+        margin-top: 0;
+        overflow: hidden;
+    }
+  
+    100% {
+        margin-top: var(--margin-top);
+        background-color: var(--wall-background);
+        overflow: hidden;
+    }
+}
+
+@keyframes seisme {
+    0% {
+        translate: -5px;
+    }
+  
+    50% {
+        translate: 5px;
+    }
+
+    100% {
+        translate: 0px;
+    }
+}
+
