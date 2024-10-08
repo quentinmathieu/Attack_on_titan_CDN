@@ -14,6 +14,7 @@ html{
     background: linear-gradient(rgb(255, 255, 154) 0%, rgb(220, 110, 50) 70%,  #8f3f14 90.6%, transparent 90.6%);
     display: flex;
     justify-content: center;
+    z-index: 50;
 }
 
 .sasageyo{
