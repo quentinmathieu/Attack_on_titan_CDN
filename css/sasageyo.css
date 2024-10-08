@@ -40,7 +40,7 @@ html{
 
 }
 
-.sasageyo button, .sasageyo a {
+.sasageyo button{
     animation: to-glow 5s;
     animation-fill-mode: forwards;
 }
