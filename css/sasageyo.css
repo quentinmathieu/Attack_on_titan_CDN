@@ -40,7 +40,7 @@ html{
 
 }
 
-.sasageyo h1, .sasageyo h2, .sasageyo h3, .sasageyo button, .sasageyo a, .sasageyo span{
+.sasageyo button, .sasageyo a {
     animation: to-glow 5s;
     animation-fill-mode: forwards;
 }
